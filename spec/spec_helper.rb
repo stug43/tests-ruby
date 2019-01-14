@@ -63,10 +63,9 @@ RSpec.configure do |config|
   # recommended. For more details, see:
   #   - http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
   #   - http://www.teaisaweso.me/blog/2013/05/27/rspecs-new-message-expectation-syntax/
-  #   - http://rspec.info/blog/2014/05/notable-changes-in-rspec-3/#zero-monkey-patching-mode
+  #   - http://rspec.info/blog/2014/05/notable-changes-in-rspec-3/#zero-monkey-patching-mode:q
   config.disable_monkey_patching!
-
-  # This setting enables warnings. It's recommended, but in some cases may
+  # This setting enables waings. It's recommended, but in some cases may
   # be too noisy due to issues in dependencies.
   config.warnings = true
 
@@ -97,4 +96,6 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
 end
+
