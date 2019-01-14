@@ -1,6 +1,4 @@
 require_relative '../lib/00_hello'
-$LOAD_PATH.unshift('.')
-require "spec_helper"
 
 describe "the hello function" do
   it "says hello" do
